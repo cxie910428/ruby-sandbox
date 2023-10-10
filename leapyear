@@ -1,0 +1,16 @@
+years = [
+  1700,
+  1940,
+  2038
+]
+year = years.sample
+if  false year%4 ==0
+  puts year.to_s+" is not a leap year!"
+elsif false year%100==0
+  puts year.to_s+" is a leap year!"
+elsif false. year%400==0
+  puts year.to_s+" is not a leap year!"
+else
+  puts year.to_s+" is a leap year!"
+	
+end
